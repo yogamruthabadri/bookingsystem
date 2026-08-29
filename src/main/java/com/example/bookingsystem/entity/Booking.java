@@ -23,7 +23,7 @@ public class Booking {
 
     @ManyToOne
     @JoinColumn(name = "show_id")
-    private Show show;
+     Show show;
 
     @Enumerated(EnumType.STRING)
     private BookingStatus bookingStatus;
